@@ -1,6 +1,6 @@
 ### Create new nx workspace
 ```
-yarn create nx-workspace --package-manager=yarn
+yarn create nx-workspace@latest --packageManager=yarn
 ```
 
 ### Remove app/library
