@@ -8,6 +8,8 @@ ___
   * [Remove app/library](#remove-applibrary)
 * [Git](#git)
   * [Prune local branches](scripts/sh/prune-local-branches.sh)
+* [Docker](#docker)
+  * [Cleanup / Prune](#cleanup--prune)
 * [Velocity](#velocity)
   * [camelCase/PascalCase file name to snake-case](#camelcasepascalcase-file-name-to-snake-case)
 * [Configs](#configs)
@@ -40,6 +42,22 @@ ___
 
 ### Prune local branches
 [prune-local-branches.sh](scripts/sh/prune-local-branches.sh)
+
+<div align="right">
+  
+  [Back to top](#storage)
+  
+</div>
+
+___
+
+## Docker
+
+### Cleanup / Prune
+
+```shell
+sudo docker system prune
+```
 
 <div align="right">
   
