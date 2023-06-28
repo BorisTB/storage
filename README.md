@@ -56,7 +56,7 @@ ___
 ### Cleanup / Prune
 
 ```shell
-sudo docker system prune
+sudo docker system prune -f
 ```
 
 <div align="right">
