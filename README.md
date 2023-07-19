@@ -22,7 +22,7 @@ ___
 
 ### Create new nx workspace
 ```shell
-yarn create nx-workspace@latest --packageManager=yarn
+npx create-nx-workspace@latest --pm=yarn
 ```
 
 ### Remove app/library
