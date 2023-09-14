@@ -3,6 +3,8 @@ Personal docs, brain extensions and useful things
 ___
 
 ## Contents
+* [Terminal](#terminal)
+  * [sudo with TouchID](#sudo-with-touchid)
 * [NX](#nx)
   * [Create new nx workspace](#create-new-nx-workspace)
   * [Remove app/library](#remove-applibrary)
@@ -14,6 +16,26 @@ ___
   * [camelCase/PascalCase file name to snake-case](#camelcasepascalcase-file-name-to-snake-case)
 * [Configs](#configs)
   * [Prettier](#prettier)
+
+___
+
+## Terminal
+
+### sudo with TouchID
+```shell
+sudo nano /etc/pam.d/sudo
+```
+
+Add to top:
+```
+auth       sufficient     pam_tid.so
+```
+
+<div align="right">
+  
+  [Back to top](#storage)
+  
+</div>
 
 ___
 
