@@ -126,9 +126,9 @@ ___
 {
   "arrowParens": "always",
   "bracketSpacing": true,
-  "jsxBracketSameLine": true,
+  "bracketSameLine": true,
   "jsxSingleQuote": false,
-  "printWidth": 80,
+  "printWidth": 120,
   "quoteProps": "as-needed",
   "semi": false,
   "singleQuote": true,
