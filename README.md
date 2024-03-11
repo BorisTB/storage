@@ -170,7 +170,7 @@ ___
   "jsxSingleQuote": false,
   "printWidth": 120,
   "quoteProps": "as-needed",
-  "semi": true,
+  "semi": false,
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "none",
