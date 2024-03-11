@@ -5,6 +5,11 @@ ___
 ## Contents
 * [Terminal](#terminal)
   * [sudo with TouchID](#sudo-with-touchid)
+* [NVM](#nvm)
+  * [install latest stable node](#install-latest-stable-node)
+  * [create .nvmrc file](#create-nvmrc-file)
+* [Yarn](#yarn)
+  * [set project yarn version](#set-project-yarn-version)
 * [NX](#nx)
   * [Create new nx workspace](#create-new-nx-workspace)
   * [Remove app/library](#remove-applibrary)
@@ -39,12 +44,47 @@ auth       sufficient     pam_tid.so
 
 ___
 
+## NVM
+
+### install latest stable node
+```shell
+nvm install --lts
+```
+
+### create .nvmrc file
+```shell
+node -v > .nvmrc
+```
+
+<div align="right">
+  
+  [Back to top](#storage)
+  
+</div>
+
+___
+
+## Yarn
+
+### set project yarn version
+```shell
+yarn set version stable --yarn-path
+```
+
+<div align="right">
+  
+  [Back to top](#storage)
+  
+</div>
+
+___
+
 ## NX
 [nx.dev](https://nx.dev)
 
 ### Create new nx workspace
 ```shell
-npx create-nx-workspace@latest --pm=yarn
+npx create-nx-workspace@latest --pm yarn
 ```
 
 ### Remove app/library
