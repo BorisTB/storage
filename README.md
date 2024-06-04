@@ -7,6 +7,9 @@ ___
   * [sudo with TouchID](#sudo-with-touchid)
 * [NVM](#nvm)
   * [install latest stable node](#install-latest-stable-node)
+  * [install latest LTS version of node (Long Term Support)](#install-latest-lts-version-of-node-long-term-support)
+  * [set default version of node](#set-default-version-of-node)
+  * [list remote available versions of node](#list-remote-available-versions-of-node)
   * [create .nvmrc file](#create-nvmrc-file)
 * [Yarn](#yarn)
   * [set project yarn version](#set-project-yarn-version)
@@ -48,7 +51,22 @@ ___
 
 ### install latest stable node
 ```shell
+nvm install stable
+```
+
+### install latest LTS version of node (Long Term Support)
+```shell
 nvm install --lts
+```
+
+### set default version of node
+```shell
+nvm alias default 22.2.0
+```
+
+### list remote available versions of node
+```shell
+nvm ls-remote
 ```
 
 ### create .nvmrc file
