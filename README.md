@@ -22,8 +22,9 @@ ___
   * [Cleanup / Prune](#cleanup--prune)
 * [Velocity](#velocity)
   * [camelCase/PascalCase file name to snake-case](#camelcasepascalcase-file-name-to-snake-case)
-* [Configs](#configs)
-  * [Prettier](#prettier)
+* [Prettier](#prettier)
+  * [.prettierrc](#prettierrc)
+  * [Add Prettier to a project](#add-prettier-to-a-project)
 
 ___
 
@@ -175,11 +176,10 @@ ___
 
 ___
 
-## Configs
+## Prettier
   
-### Prettier
-  
-`.prettierrc`
+### .prettierrc
+
 ```json
 {
   "arrowParens": "always",
@@ -194,6 +194,22 @@ ___
   "trailingComma": "none",
   "useTabs": false
 }
+```
+  
+### Add Prettier to a project
+
+1. Install Prettier, pretty-quick and husky
+```shell
+yarn add -D -E prettier pretty-quick husky
+```
+
+2. Add pre-commit hook to `package.json`
+```json
+"husky": {
+  "hooks": {
+    "pre-commit": "pretty-quick --staged"
+  }
+},
 ```
 
 <div align="right">
