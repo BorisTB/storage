@@ -18,6 +18,7 @@ ___
   * [Remove app/library](#remove-applibrary)
 * [Git](#git)
   * [Prune local branches](scripts/sh/prune-local-branches.sh)
+  * [Remove merged .gitignore files](#remove-merged-gitignore-files)
 * [Docker](#docker)
   * [Cleanup / Prune](#cleanup--prune)
 * [Velocity](#velocity)
@@ -123,6 +124,11 @@ ___
 
 ### Prune local branches
 [prune-local-branches.sh](scripts/sh/prune-local-branches.sh)
+
+### Remove merged .gitignore files
+```shell
+git rm -r --cached . && git add .
+```
 
 <div align="right">
   
