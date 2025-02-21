@@ -11,6 +11,8 @@ ___
   * [set default version of node](#set-default-version-of-node)
   * [list remote available versions of node](#list-remote-available-versions-of-node)
   * [create .nvmrc file](#create-nvmrc-file)
+* [NPM](#npm)
+  * [cleanup node_modules](#cleanup-node_modules)
 * [Yarn](#yarn)
   * [set project yarn version](#set-project-yarn-version)
 * [NX](#nx)
@@ -74,6 +76,21 @@ nvm ls-remote
 ### create .nvmrc file
 ```shell
 node -v > .nvmrc
+```
+
+<div align="right">
+  
+  [Back to top](#storage)
+  
+</div>
+
+___
+
+## NPM
+
+### cleanup node_modules
+```shell
+npx npkill -d ~/DEV
 ```
 
 <div align="right">
