@@ -11,6 +11,7 @@ ___
   * [set default version of node](#set-default-version-of-node)
   * [list remote available versions of node](#list-remote-available-versions-of-node)
   * [create .nvmrc file](#create-nvmrc-file)
+  * [uninstall all node versions - cleanup](#uninstall-all-node-versions---cleanup)
 * [NPM](#npm)
   * [cleanup node_modules](#cleanup-node_modules)
 * [Yarn](#yarn)
@@ -76,6 +77,13 @@ nvm ls-remote
 ### create .nvmrc file
 ```shell
 node -v > .nvmrc
+```
+
+### uninstall all node versions - cleanup
+```shell
+nvm list --no-colors | grep -Eo 'v[0-9]+\.[0-9]+\.[0-9]+' | while read -r version; do
+  nvm uninstall "$version"
+done
 ```
 
 <div align="right">
