@@ -3,6 +3,7 @@ Personal docs, brain extensions and useful things
 ___
 
 ## Contents
+* [⭐️ Favorite stuff](#favorite-stuff)
 * [Terminal](#terminal)
   * [sudo with TouchID](#sudo-with-touchid)
 * [NVM](#nvm)
@@ -32,6 +33,19 @@ ___
 
 ___
 
+## ⭐️ Favorite things
+
+// TODO 
+
+<div align="right">
+  
+  [Back to top](#storage)
+  
+</div>
+
+___
+
+
 ## Terminal
 
 ### sudo with TouchID
@@ -51,6 +65,7 @@ auth       sufficient     pam_tid.so
 </div>
 
 ___
+
 
 ## NVM
 
