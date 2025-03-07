@@ -17,6 +17,9 @@ ___
   * [cleanup node_modules](#cleanup-node_modules)
 * [Yarn](#yarn)
   * [set project yarn version](#set-project-yarn-version)
+* [Python](#python)
+  * [install any version of python](#install-any-version-of-python)
+  * [set default version of python](#set-default-version-of-python)
 * [NX](#nx)
   * [Create new nx workspace](#create-new-nx-workspace)
   * [Remove app/library](#remove-applibrary)
@@ -129,6 +132,29 @@ ___
 ### set project yarn version
 ```shell
 yarn set version stable --yarn-path
+```
+
+<div align="right">
+  
+  [Back to top](#storage)
+  
+</div>
+
+___
+
+## Python
+
+### install any version of python
+```shell
+brew update
+brew install pyenv
+pyenv install --list
+pyenv install 3.13.2
+```
+
+### set default version of python
+```shell
+pyenv global 3.13.2
 ```
 
 <div align="right">
