@@ -3,7 +3,10 @@ Personal docs, brain extensions and useful things
 ___
 
 ## Contents
-* [⭐️ Favorite stuff](#favorite-stuff)
+* [⭐️ Favorite stuff](#%EF%B8%8F-favorite-things)
+* [⚙️ Scripts](#%EF%B8%8F-scripts)
+  * [js](#js)
+  * [sh](#sh)
 * [Terminal](#terminal)
   * [sudo with TouchID](#sudo-with-touchid)
 * [NVM](#nvm)
@@ -39,6 +42,23 @@ ___
 ## ⭐️ Favorite things
 
 // TODO 
+
+<div align="right">
+  
+  [Back to top](#storage)
+  
+</div>
+
+___
+
+## ⚙️ Scripts
+
+### js
+- [logger](scripts/js/logger.js)
+- [detectAdblock](scripts/js/detectAdblock.js)
+
+### sh
+- [prune-local-branches.sh](scripts/sh/prune-local-branches.sh)
 
 <div align="right">
   
