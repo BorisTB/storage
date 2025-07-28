@@ -54,8 +54,9 @@ ___
 ## ⚙️ Scripts
 
 ### js
-- [logger](scripts/js/logger.js)
 - [detectAdblock](scripts/js/detectAdblock.js)
+- [logger](scripts/js/logger.js)
+- [sleep](scripts/js/sleep.js)
 
 ### sh
 - [prune-local-branches.sh](scripts/sh/prune-local-branches.sh)
