@@ -17,6 +17,7 @@ ___
   * [create .nvmrc file](#create-nvmrc-file)
   * [uninstall all node versions - cleanup](#uninstall-all-node-versions---cleanup)
 * [NPM](#npm)
+  * [clean cache](#clean-cache)
   * [cleanup node_modules](#cleanup-node_modules)
 * [Yarn](#yarn)
   * [set project yarn version](#set-project-yarn-version)
@@ -134,6 +135,11 @@ done
 ___
 
 ## NPM
+
+### clean cache
+```shell
+npm cache clean --force
+```
 
 ### cleanup node_modules
 ```shell
