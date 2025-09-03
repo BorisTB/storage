@@ -9,6 +9,8 @@ ___
   * [sh](#sh)
 * [Terminal](#terminal)
   * [sudo with TouchID](#sudo-with-touchid)
+* [Bun](#bun)
+  * [create library](#create-library)
 * [NVM](#nvm)
   * [install latest stable node](#install-latest-stable-node)
   * [install latest LTS version of node (Long Term Support)](#install-latest-lts-version-of-node-long-term-support)
@@ -81,6 +83,22 @@ sudo nano /etc/pam.d/sudo
 Add to top:
 ```
 auth       sufficient     pam_tid.so
+```
+
+<div align="right">
+  
+  [Back to top](#storage)
+  
+</div>
+
+___
+
+
+## Bun
+
+### create library
+```shell
+bunx @bunup/cli@latest create
 ```
 
 <div align="right">
